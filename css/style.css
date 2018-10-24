@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+#logo{
+    float: left;
+    margin-top: -10px;
+    padding: 0px;
+    width: 50px;
+}
+
+#welcome{
+    float:right;
+    margin-top: 15px;
+}
+
+header .current{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a{
+    color: #e8491d;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Login Form styling */
+#login-form{
+    padding-top: 15px;
+    color: #ffffff;
+    background: #bdd8e9;
+    height: auto;
+}
+
+#login-form input{
+    padding: 4px;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+#login-form input[placeholder]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e8491d;
+}
+
+/* Other forms */
+.forms{
+    float: left;
+}
+
+.form-input{
+    float: right;
+    margin-top: 25px;
+}
+
+.button{
+    background:#e8491d;
+    border: none;
+    color: #ffffff;
+}
+
+.data{
+    float: left;
+    width: 33%;
+    height: auto;
+    color: #ffffff;
+    font-size: 12;
+}
+
+.data img{
+    width: 180px;
+    padding: 0px;
+    border: #e8491d 1px solid;
+}
+
+#datum{
+    background: url("../img/waters.png") repeat;
+    height: 250px;
+
+}
+
+footer{
+    background: #e8491d;
+    color: #ffffff;
+    margin-top: 0px;
+    padding-top: 30px;
+    min-height: 70px;
+    border-top: #000000 3px solid;
+}
+
+
+#links{
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 800px;
+}
